@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class Simulation {
 
-	static double start = 0, stop = 0;
+	static double start =0,stop = 0;
 
+	//main function
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Enter 1 to start = ");
@@ -18,6 +19,7 @@ public class Simulation {
 		scan.close();
 	}
 
+	//logic functions
 	static void startTime() {
 		start = System.currentTimeMillis();
 		System.out.println("started at : " + start);
