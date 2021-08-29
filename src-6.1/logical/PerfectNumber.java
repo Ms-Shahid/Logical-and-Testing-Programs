@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class PerfectNumber {
 
+	//main function
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
@@ -15,7 +16,7 @@ public class PerfectNumber {
 			System.out.println(classname);
 			scan.close();
 	}
-	
+	//logic function
 	public static boolean isPerfect(int num){
 		int sum=0;
 		for(int i=1;i<num;i++) {
