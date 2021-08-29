@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class PrimeNumber {
 
+	//main function
 	public static void main(String[] args) {
 		System.out.println("Enter number ");
 		Scanner scan = new Scanner(System.in);
@@ -11,7 +12,8 @@ public class PrimeNumber {
 		isPrime(n);
 		scan.close();
 	}
-
+	
+	//logic function
 	public static void isPrime(int num) {
 		boolean flag = false;
 		
