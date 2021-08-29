@@ -2,11 +2,13 @@ package logical;
 
 public class CouponCodes {
 
+	//main function
 	public static void main(String[] args) {
 		
 		generateRandom();
 	}
 	
+	//logic function
 	public static void generateRandom() {
 		
 		char[] code="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789".toCharArray();
