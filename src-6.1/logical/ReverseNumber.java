@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ReverseNumber {
 
+	//main function
 	public static void main(String[] args) {
 		
 		System.out.println("Enter Number to get a reverse of it : ");
@@ -13,6 +14,7 @@ public class ReverseNumber {
 		scan.close();
 	}
 
+	//logic function 
 	public static void isReverse(int num) {
 		int reversed=0;
 		int temp=num;
