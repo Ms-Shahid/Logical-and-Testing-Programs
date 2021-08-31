@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class BinarySwapping {
 
 	public static int[] toBinary(int num) {
-
+		
 		String concat = "";
 		while (num != 0) {
 			concat = (num % 2) + concat;
@@ -16,7 +16,7 @@ public class BinarySwapping {
 		}
 		return stringToIntArray(concat);
 	}
-
+	
 	public static int[] stringToIntArray(String bin) {
 		int[] binary = new int[bin.length()];
 		for (int i = 0; i < binary.length; i++) {
@@ -92,7 +92,6 @@ public class BinarySwapping {
 		} catch (Exception e) {
 			System.out.println("enter input as integer ");
 		}
-
 	}
 
 }
