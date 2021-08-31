@@ -18,7 +18,6 @@ public class CompoundInterest {
 		
 		double payment = monthlyPayment(P,Y,R);
 		System.out.println("The Compound Interest is: "+ payment);
-		
 	}
 	public static double monthlyPayment(double P, double Y, double R) {
 		int n = (int) (12 * Y);

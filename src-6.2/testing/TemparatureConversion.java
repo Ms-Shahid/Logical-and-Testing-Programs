@@ -5,6 +5,7 @@ public class TemparatureConversion {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
+		
 		System.out.print("Enter the temperature in Fahrenheit: ");
 		float fah = scan.nextFloat();
 		
